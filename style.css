@@ -1,5 +1,4 @@
 *{
-    margin-top: auto;
     margin: 0;
     padding: 0%;
 
@@ -12,10 +11,51 @@ body{
     line-height: 1.8;
 }
 .header{
+background-color: lightpink;
+border-radius: 3%;
+text-align: center;
+pad: 20px;
+}
+.profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("fotos/image.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+.main-tittle{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aliceblue;
+
 
 }
+.subtitle{
+    font-size: 18PX;
+    color: aliceblue;
+}
 .main-nav{
-
+    color: aliceblue;
+    font-size:20px;
+    background-color: rgb(187, 107, 163);
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.main-nav a:hover{
+    color: lightpink;
+    font-size: 20px;
+    
+}
+.main-nav a{
+   text-decoration: none;
+   font-weight: bold;
+   margin: 0 15px;
+   font-size: 18px;
+   transition: color 0.4s;
+   transition: font-size 0.3s;
 }
 .section{
 
