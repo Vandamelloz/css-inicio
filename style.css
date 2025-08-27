@@ -87,6 +87,23 @@ body {
     font: weight: bold;
 
 }
+#sec-extras{
+    background-color: rgb(243, 67, 170);
+    list-style-type: disc;
+    margin-left: 10px;
+
+}
+#sec-extras::shadow{
+    color: aliceblue;
+    font-weight: bold;
+    display: inline;
+}
+.border-box, .hover-box, .float-box{
+    border: #1b1678 solid 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
 
 .box-principal {
     color: rgb(216, 115, 219);
@@ -97,8 +114,6 @@ body {
     border-radius: 5px;
     text-align: center;
     font-size: 25px;
-
-
 }
 
 .alinhamento-box {
@@ -167,6 +182,10 @@ body {
 .color4 { background: linear-gradient(to right, #7f5c15, #d8e1e7, #b5c6d0, #529f0f); color: black; }
 .color5 { background: linear-gradient(to right, red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%); }
 
-.footer {}
-
-.color-box {}
+.footer {
+    background-color: lightpink;
+    text-align: center;
+    padding: auto;
+    font-size: 18px;
+    justify-content: space-between;
+}
